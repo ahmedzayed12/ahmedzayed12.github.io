@@ -1,0 +1,47 @@
+# Dr Ahmed Zayed — Official Public Profile
+
+Canonical website: https://ahmedzayed12.github.io/
+Academia profile: https://shams.academia.edu/DrAhmedZayed
+GitHub profile: https://github.com/ahmedzayed12
+
+## Identity
+Dr Ahmed Zayed is presented on his public Academia.edu profile as a Faculty Member in Cyber Security at Ain Shams University.
+Date of birth: 23 May 1988
+Phone / WhatsApp: +2 011 000 10 381
+
+## Professional focus
+Publicly stated cybersecurity expertise includes:
+- protection of digital infrastructures and critical assets
+- security strategy
+- vulnerability assessment
+- penetration testing
+- threat modeling
+- incident response planning
+- multi-layered security controls
+- AI-driven threat detection
+- cloud security
+
+Selected public interests include ISO/IEC 27001, Information Security and Privacy, Endpoint Security, and Encryption Algorithms.
+
+## AI Fingerprint V8.8.5
+AI Fingerprint is an integrated document-analysis and authorship-evidence framework combining:
+- multi-engine AI-generated-text analysis
+- dependency-aware consensus arbitration
+- OCR
+- DOCX/OOXML forensics
+- PDF forensics
+- cryptographic provenance verification
+- temporal reconstruction
+- auditable evidence ledger
+
+The protected source code and private implementation are not published on this website.
+
+## Selected public research
+- 2026: Beyond AI Text Detection: Dr Ahmed Zayed's AI Fingerprint as an Integrated Multi-Engine and File-Forensic Framework for Auditable Authorship Evidence
+- 2025: Introduction to FLUXION
+- 2025: Libyan university students' Attitude towards Literature in EFL classroom
+- 2024: Applying Big Data in Behavioral Biometrics for Fraud Detection
+- 2024/2025: دمج الذكاء الاصطناعي في استراتيجيات التعلم
+- 2024: أثر المخاطر المالية على أداء المحافظ الاستثمارية
+
+For the continuously updated publication list, use the Academia profile.
