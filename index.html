@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dr Ahmed Zayed | AI Fingerprint V8.8.5 & AquaDyn 3D Research Studio v12</title>
+<meta name="description" content="Official research portfolio of Dr Ahmed Zayed — Cyber Security faculty member at Ain Shams University, developer of AI Fingerprint V8.8.5 and AquaDyn 3D Research Studio v12.">
+<meta name="author" content="Dr Ahmed Zayed">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<link rel="canonical" href="https://ahmedzayed12.github.io/">
+<meta name="theme-color" content="#050b14">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dr Ahmed Zayed | Research Software, Cyber Security & Forensic AI">
+<meta property="og:description" content="AI Fingerprint V8.8.5 and AquaDyn 3D Research Studio v12 — independent research software for digital evidence and computational hydraulics.">
+<meta property="og:url" content="https://ahmedzayed12.github.io/">
+<meta property="og:image" content="https://0.academia-photos.com/163548607/53604957/174512776/s200_dr_-_ahmed.zayed.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root{
+  --bg:#050b14;--bg2:#07111d;--panel:#0a1725;--panel2:#0c1c2c;--line:rgba(132,219,255,.16);
+  --text:#e8f7ff;--muted:#8eb3c6;--cyan:#38d8ff;--blue:#4a80ff;--aqua:#31e4c6;--violet:#9d75ff;
+  --amber:#ffc766;--red:#ff6e7f;--shadow:0 26px 70px rgba(0,0,0,.36);--radius:24px;--max:1220px;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:
+radial-gradient(circle at 8% 8%,rgba(54,145,255,.12),transparent 26%),
+radial-gradient(circle at 85% 16%,rgba(45,225,199,.08),transparent 22%),
+linear-gradient(180deg,#030912 0%,var(--bg) 38%,#06111d 100%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.65;overflow-x:hidden}
+a{color:inherit;text-decoration:none}img{display:block;max-width:100%}.wrap{width:min(var(--max),calc(100% - 38px));margin:auto}
+.nav{position:sticky;top:0;z-index:50;background:rgba(4,10,18,.74);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.06)}
+.nav-inner{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-weight:820;letter-spacing:.2px}
+.brand-mark{width:37px;height:37px;display:grid;place-items:center;border-radius:12px;background:linear-gradient(135deg,var(--cyan),var(--blue));color:#001019;box-shadow:0 0 24px rgba(56,216,255,.28);font-size:13px}
+.navlinks{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}.navlinks a{padding:9px 11px;color:#a9c8d8;font-size:13px;border-radius:12px;transition:.2s}.navlinks a:hover{color:white;background:rgba(255,255,255,.06)}
+.nav-cta{border:1px solid rgba(49,228,198,.28)!important;background:rgba(49,228,198,.08)!important;color:#b7fff1!important}
+.hero{position:relative;min-height:810px;display:grid;align-items:center;padding:82px 0 64px;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(84,190,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(84,190,255,.035) 1px,transparent 1px);background-size:54px 54px;mask-image:linear-gradient(to bottom,black,transparent 88%);pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:58px;align-items:center;position:relative;z-index:2}
+.eyebrow,.kicker{text-transform:uppercase;letter-spacing:.17em;font-size:11px;font-weight:800;color:#87eafc}.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(56,216,255,.18);background:rgba(56,216,255,.055);padding:8px 12px;border-radius:99px}.dot{width:7px;height:7px;border-radius:50%;background:var(--aqua);box-shadow:0 0 14px var(--aqua)}
+h1{font-size:clamp(54px,7.2vw,94px);line-height:.92;letter-spacing:-.055em;margin:24px 0 22px;max-width:800px}.grad{background:linear-gradient(100deg,#fff 0%,#8eeaff 36%,#7fa7ff 68%,#b899ff 100%);-webkit-background-clip:text;color:transparent}
+.lead{font-size:clamp(17px,2vw,20px);color:#9ebdcd;max-width:760px;margin:0}.hero .lead{max-width:680px}.lead strong{color:#fff}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:31px 0 0}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 16px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.045);color:#d8eef8;font-size:13px;font-weight:760;transition:transform .18s,border-color .18s,background .18s}.btn:hover{transform:translateY(-2px);border-color:rgba(108,221,255,.35);background:rgba(255,255,255,.075)}.btn.primary{background:linear-gradient(135deg,#31dfff,#527cff);border:0;color:#03111c;box-shadow:0 12px 32px rgba(64,166,255,.2)}.btn.aqua{background:rgba(49,228,198,.08);color:#adffef;border-color:rgba(49,228,198,.28)}
+.statrow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:42px}.stat{padding:14px 13px;border-top:1px solid rgba(255,255,255,.09)}.stat b{font-size:18px;display:block;color:#f1fbff}.stat span{font-size:11px;display:block;color:#739aac;margin-top:3px;line-height:1.35}
+.hero-visual{position:relative;min-height:580px}.hero-orbit{position:absolute;border:1px solid rgba(78,212,255,.13);border-radius:50%;inset:8% 3% 6% 8%;animation:spin 22s linear infinite}.hero-orbit:before,.hero-orbit:after{content:"";position:absolute;width:8px;height:8px;border-radius:50%;background:var(--cyan);box-shadow:0 0 18px var(--cyan)}.hero-orbit:before{top:12%;left:8%}.hero-orbit:after{bottom:18%;right:6%;background:var(--aqua);box-shadow:0 0 18px var(--aqua)}@keyframes spin{to{transform:rotate(360deg)}}
+.visual-card{position:absolute;inset:42px 0 0 18px;border-radius:32px;overflow:hidden;border:1px solid rgba(128,221,255,.18);background:#06111d;box-shadow:var(--shadow);transform:perspective(1200px) rotateY(-6deg) rotateX(2deg)}.visual-card img{width:100%;height:100%;object-fit:cover;opacity:.93}.visual-card:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(3,10,18,.88) 100%)}.visual-label{position:absolute;z-index:2;left:22px;right:22px;bottom:20px;padding:15px 16px;border-radius:18px;background:rgba(5,15,26,.72);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.08)}.visual-label b{display:block;font-size:15px}.visual-label span{font-size:11px;color:#86a9bb}
+.float-chip{position:absolute;z-index:4;padding:10px 13px;border:1px solid rgba(255,255,255,.1);background:rgba(7,19,32,.82);backdrop-filter:blur(12px);border-radius:14px;font-size:11px;color:#b6dae8;box-shadow:0 14px 40px rgba(0,0,0,.25)}.fc1{right:-16px;top:75px}.fc2{left:-22px;bottom:94px}.fc3{right:28px;bottom:3px}
+.section{padding:96px 0;position:relative}.section+.section{border-top:1px solid rgba(255,255,255,.05)}.section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:34px}.section-head h2{font-size:clamp(36px,4.5vw,62px);letter-spacing:-.045em;line-height:1.03;margin:8px 0 0}.section-head .lead{max-width:540px;font-size:16px}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}
+.card{position:relative;padding:25px;border-radius:var(--radius);background:linear-gradient(180deg,rgba(14,30,47,.92),rgba(8,20,33,.95));border:1px solid rgba(129,211,245,.11);box-shadow:0 16px 50px rgba(0,0,0,.12);overflow:hidden}.card:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 100% 0,rgba(68,168,255,.08),transparent 34%);pointer-events:none}.card.featured{border-color:rgba(56,216,255,.25);background:linear-gradient(180deg,rgba(12,39,58,.96),rgba(7,23,37,.97))}.card h3{margin:8px 0 9px;font-size:19px;letter-spacing:-.01em}.muted{color:#89aabd;font-size:14px}.icon{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,rgba(56,216,255,.15),rgba(81,127,255,.15));border:1px solid rgba(94,206,255,.2);color:#8deaff;font-weight:850;font-size:11px}
+.about-copy{font-size:17px;color:#a7c5d5}.about-copy strong{color:#f0fbff}.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.pill{font-size:11px;color:#a9cada;padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.075)}
+.info-table{display:grid;grid-template-columns:145px 1fr;gap:11px 16px;font-size:13px}.info-table .label{color:#668da1}.info-table .value{color:#d3e8f3}.info-table a{color:#8ee6ff}
+.project-hero{display:grid;grid-template-columns:.88fr 1.12fr;gap:18px;align-items:stretch;margin-bottom:18px}.project-intro{padding:34px}.project-intro h3{font-size:clamp(34px,4vw,54px);line-height:1.0;letter-spacing:-.045em;margin:12px 0 16px}.version-badge{display:inline-flex;gap:8px;align-items:center;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:850;border:1px solid rgba(49,228,198,.24);color:#b7fff1;background:rgba(49,228,198,.06)}
+.big-visual{border-radius:var(--radius);overflow:hidden;position:relative;min-height:390px;border:1px solid rgba(56,216,255,.16);background:#06101c}.big-visual img{width:100%;height:100%;object-fit:cover}.big-visual .overlay{position:absolute;inset:auto 16px 16px 16px;padding:13px 14px;background:rgba(5,14,24,.76);backdrop-filter:blur(12px);border-radius:15px;border:1px solid rgba(255,255,255,.08);font-size:12px;color:#bdd8e4}
+.ai-matrix{display:grid;grid-template-columns:1.12fr .88fr;gap:18px}.evidence-stack{display:grid;gap:10px}.evidence-row{display:grid;grid-template-columns:44px 1fr auto;gap:12px;align-items:center;padding:13px 14px;border-radius:15px;background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.06)}.evidence-row .badge{font-size:10px;font-weight:850;color:#85e8ff}.evidence-row b{font-size:13px}.evidence-row span{font-size:11px;color:#7196a9}
+.highlight-box{padding:28px;border-radius:22px;background:linear-gradient(135deg,rgba(56,216,255,.11),rgba(157,117,255,.08));border:1px solid rgba(99,204,255,.2)}.highlight-box .big{font-size:52px;font-weight:900;letter-spacing:-.06em;line-height:1;color:#dffbff}.highlight-box p{margin:8px 0 0;color:#9fbfd0;font-size:13px}
+.feature-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:18px}.feature-item{padding:14px;border-radius:15px;border:1px solid rgba(255,255,255,.07);background:rgba(255,255,255,.025)}.feature-item b{display:block;font-size:12px;color:#dff5ff}.feature-item span{display:block;font-size:11px;color:#759aad;margin-top:3px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.shot{position:relative;border-radius:22px;overflow:hidden;border:1px solid rgba(124,218,255,.14);min-height:270px;background:#07131f}.shot img{width:100%;height:100%;object-fit:cover;transition:transform .35s}.shot:hover img{transform:scale(1.035)}.shot-caption{position:absolute;left:12px;right:12px;bottom:12px;padding:12px 13px;border-radius:14px;background:rgba(4,12,21,.75);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.07)}.shot-caption b{font-size:12px;display:block}.shot-caption span{font-size:10px;color:#83a7b8}
+.scenario-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:16px}.scenario{padding:16px 12px;text-align:center;border-radius:16px;border:1px solid rgba(255,255,255,.065);background:rgba(255,255,255,.025)}.scenario b{font-size:11px;display:block}.scenario span{font-size:9px;color:#6f96a8;display:block;margin-top:4px}
+.tech-table{display:grid;grid-template-columns:1fr 1fr;gap:14px}.tech-col{padding:23px;border-radius:20px;border:1px solid rgba(255,255,255,.07);background:rgba(255,255,255,.025)}.tech-col h4{margin:0 0 12px;font-size:13px;color:#baf6ff}.tech-col ul{margin:0;padding-left:18px;color:#91b2c2;font-size:12px}.tech-col li{margin:7px 0}
+.pub{display:grid;grid-template-columns:62px 1fr;gap:16px}.pub-year{font-weight:900;color:#7ee9ff}.pub-title{font-weight:770;line-height:1.35}.pub small{display:block;color:#769bad;margin-top:6px}
+.contact-panel{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:36px;border-radius:28px;border:1px solid rgba(84,220,255,.2);background:linear-gradient(135deg,rgba(20,58,78,.7),rgba(10,24,39,.9));box-shadow:var(--shadow)}.contact-actions{display:flex;gap:10px;flex-wrap:wrap}
+.notice{font-size:11px;color:#66889a;padding:14px 16px;border:1px solid rgba(255,255,255,.06);border-radius:14px;background:rgba(255,255,255,.02);margin-top:16px}
+footer{padding:38px 0 52px;border-top:1px solid rgba(255,255,255,.06);color:#678b9e;font-size:11px}.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:flex-start}footer strong{color:#dcecf8}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .65s ease,transform .65s ease}.reveal.show{opacity:1;transform:none}
+@media(max-width:1000px){.hero-grid,.project-hero,.ai-matrix{grid-template-columns:1fr}.hero{min-height:auto;padding-top:64px}.hero-visual{min-height:500px}.visual-card{inset:35px 5% 0 5%;transform:none}.grid4{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:1fr 1fr}.scenario-strip{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:720px){.navlinks a:not(.nav-cta){display:none}.hero{padding-top:44px}.hero-visual{min-height:390px}.float-chip{display:none}.statrow{grid-template-columns:repeat(2,1fr)}.section{padding:70px 0}.section-head{display:block}.section-head .lead{margin-top:16px}.grid2,.grid3,.grid4,.gallery,.tech-table,.feature-list{grid-template-columns:1fr}.scenario-strip{grid-template-columns:1fr 1fr}.info-table{grid-template-columns:1fr}.info-table .label{margin-top:5px}.contact-panel,.footer-grid{display:block}.contact-actions{margin-top:18px}}
+
+.scene-svg{display:block;width:100%;height:100%;min-height:320px;background:#06101c;overflow:hidden}
+.visual-card .scene-svg{min-height:520px}
+.big-visual .scene-svg{min-height:560px}
+.shot .scene-svg{min-height:320px}
+.scene-svg .gridline{stroke:#62ddff;stroke-opacity:.10;stroke-width:1}
+.scene-svg .flowline{fill:none;stroke:#8ff4ff;stroke-width:2.3;stroke-linecap:round;opacity:.72;stroke-dasharray:8 10;animation:dashflow 4.5s linear infinite}
+.scene-svg .flowline2{fill:none;stroke:#a6ffd9;stroke-width:1.5;stroke-linecap:round;opacity:.55;stroke-dasharray:4 9;animation:dashflow 6s linear infinite reverse}
+.scene-svg .pulse{animation:pulse3d 3s ease-in-out infinite;transform-origin:center}
+@keyframes dashflow{to{stroke-dashoffset:-72}}
+@keyframes pulse3d{0%,100%{opacity:.5}50%{opacity:1}}
+
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"Person","name":"Ahmed Zayed","alternateName":"Dr Ahmed Zayed","honorificPrefix":"Dr","birthDate":"1988-05-23","telephone":"+201100010381","url":"https://ahmedzayed12.github.io/","image":"https://0.academia-photos.com/163548607/53604957/174512776/s200_dr_-_ahmed.zayed.png","sameAs":["https://shams.academia.edu/DrAhmedZayed","https://github.com/ahmedzayed12"],"affiliation":{"@type":"Organization","name":"Ain Shams University"},"jobTitle":"Cyber Security Faculty Member","knowsAbout":["Cyber Security","Digital Forensics","AI-driven Threat Detection","Document Forensics","Digital Provenance","Computational Hydraulics","Research Software"]},
+    {"@type":"SoftwareApplication","name":"AI Fingerprint","softwareVersion":"8.8.5","applicationCategory":"SecurityApplication","author":{"@type":"Person","name":"Ahmed Zayed"},"description":"Integrated multi-engine AI-text and native-file forensic evidence architecture with OCR, DOCX/PDF reconstruction, cryptographic provenance, temporal analysis and auditable evidence reporting."},
+    {"@type":"SoftwareApplication","name":"AquaDyn 3D Research Studio","softwareVersion":"12","applicationCategory":"ScientificApplication","author":{"@type":"Person","name":"Ahmed Zayed"},"description":"Independent research studio for computational hydraulics, morphodynamics, scour analysis and volumetric 3D free-surface CFD visualization."}
+  ]
+}
+</script>
+<!-- Fixed build: inline SVG 3D scenes; no external/base64 image dependency -->
+
+<style id="mobile-responsive-v12-1">
+/* AquaDyn v12.1 — robust responsive/mobile overrides */
+html,body{max-width:100%;overflow-x:hidden;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+*,*::before,*::after{box-sizing:border-box}
+img,svg,video,canvas{max-width:100%}
+img{height:auto}
+.wrap{width:min(var(--max),calc(100% - 32px));min-width:0}
+.hero-grid,.project-hero,.ai-matrix,.grid2,.grid3,.grid4,.gallery,.tech-table,.feature-list,.scenario-strip{min-width:0}
+.hero-grid>*,.project-hero>*,.ai-matrix>*,.grid2>*,.grid3>*,.grid4>*,.gallery>*,.tech-table>*,.feature-list>*,.scenario-strip>*{min-width:0}
+.scene-svg{width:100%;height:auto!important;min-height:0!important;aspect-ratio:1000/720;object-fit:contain}
+.visual-card .scene-svg,.big-visual .scene-svg,.shot .scene-svg{height:auto!important;min-height:0!important}
+
+@media(max-width:1000px){
+  .hero-grid,.project-hero,.ai-matrix{grid-template-columns:minmax(0,1fr)}
+  .hero-visual{min-height:0;height:auto;margin-top:30px}
+  .hero-orbit{display:none}
+  .visual-card{position:relative;inset:auto;width:100%;height:auto;transform:none;border-radius:24px;display:flex;flex-direction:column}
+  .visual-card:after{display:none}
+  .visual-label{position:static;inset:auto;width:auto;margin:0;padding:14px 16px;border-radius:0;border-left:0;border-right:0;border-bottom:0;background:rgba(5,15,26,.96);backdrop-filter:none}
+  .big-visual{min-height:0;height:auto;display:flex;flex-direction:column}
+  .big-visual .overlay{position:static;inset:auto;margin:0;border-radius:0;border-left:0;border-right:0;border-bottom:0;background:rgba(5,14,24,.96);backdrop-filter:none}
+  .shot{min-height:0;height:auto;display:flex;flex-direction:column}
+  .shot-caption{position:static;inset:auto;margin:0;border-radius:0;border-left:0;border-right:0;border-bottom:0;background:rgba(4,12,21,.96);backdrop-filter:none}
+  .gallery{align-items:start}
+}
+
+@media(max-width:720px){
+  .wrap{width:calc(100% - 24px)}
+  .nav-inner{min-height:62px;gap:8px}
+  .brand{min-width:0;gap:8px;font-size:13px;white-space:nowrap}
+  .brand-mark{width:34px;height:34px;flex:0 0 34px}
+  .navlinks{flex:0 0 auto;gap:4px}
+  .navlinks a:not(.nav-cta){display:none}
+  .nav-cta{padding:8px 9px!important;font-size:11px!important;white-space:nowrap}
+  .hero{padding:38px 0 48px;min-height:0}
+  .hero-grid{gap:24px}
+  .eyebrow{max-width:100%;white-space:normal;line-height:1.45;letter-spacing:.10em;padding:7px 10px}
+  h1{font-size:clamp(39px,12vw,56px);line-height:.96;letter-spacing:-.045em;margin:20px 0 18px;overflow-wrap:anywhere}
+  .lead{font-size:15px;line-height:1.72;overflow-wrap:anywhere}
+  .hero-actions{display:grid;grid-template-columns:1fr;gap:9px;width:100%}
+  .hero-actions .btn{width:100%;justify-content:center;text-align:center;white-space:normal}
+  .statrow{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .stat{padding:12px 10px;min-width:0}
+  .stat b{font-size:16px;overflow-wrap:anywhere}
+  .hero-visual{margin-top:6px}
+  .visual-card{border-radius:20px}
+  .scene-svg{aspect-ratio:1000/720}
+  .visual-label b{font-size:13px}.visual-label span{font-size:10px;line-height:1.5;display:block;margin-top:3px}
+  .section{padding:58px 0}
+  .section-head{display:block;margin-bottom:24px}
+  .section-head h2{font-size:clamp(31px,10vw,44px);line-height:1.04;overflow-wrap:anywhere}
+  .section-head .lead{margin-top:14px;font-size:14px}
+  .grid2,.grid3,.grid4,.gallery,.tech-table,.feature-list{grid-template-columns:minmax(0,1fr)}
+  .scenario-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .card,.project-intro,.tech-col{padding:19px}
+  .project-intro h3{font-size:clamp(29px,9vw,40px);overflow-wrap:anywhere}
+  .big-visual,.shot{border-radius:18px}
+  .big-visual .overlay,.shot-caption,.visual-label{padding:12px 13px}
+  .evidence-row{grid-template-columns:38px minmax(0,1fr);gap:10px}
+  .evidence-row>*:last-child{grid-column:2;justify-self:start}
+  .info-table{grid-template-columns:minmax(0,1fr)}
+  .info-table .value,.pub-title,.muted,.tech-col li,.notice{overflow-wrap:anywhere;word-break:normal}
+  .pub{grid-template-columns:1fr;gap:6px}
+  .pub-year{font-size:12px}
+  .contact-panel,.footer-grid{display:block;padding:24px 18px}
+  .contact-actions{display:grid;grid-template-columns:1fr;margin-top:18px;width:100%}
+  .contact-actions .btn{width:100%;justify-content:center;text-align:center}
+  footer .footer-grid{padding:0}
+}
+
+@media(max-width:430px){
+  .wrap{width:calc(100% - 20px)}
+  .brand span:last-child{max-width:165px;overflow:hidden;text-overflow:ellipsis}
+  .nav-cta{font-size:10px!important;padding:7px 8px!important}
+  h1{font-size:clamp(36px,12.2vw,48px)}
+  .statrow{grid-template-columns:minmax(0,1fr)}
+  .scenario-strip{grid-template-columns:minmax(0,1fr)}
+  .card,.project-intro,.tech-col{padding:17px}
+  .section{padding:50px 0}
+  .scene-svg{aspect-ratio:4/3}
+}
+
+@media(max-width:360px){
+  .brand span:last-child{max-width:128px}
+  .wrap{width:calc(100% - 16px)}
+  .nav-inner{gap:5px}
+  .brand-mark{width:31px;height:31px;flex-basis:31px;font-size:11px}
+  .nav-cta{padding:6px 7px!important}
+  h1{font-size:35px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important}
+}
+</style>
+
+</head>
+<body>
+<nav class="nav"><div class="wrap nav-inner">
+  <a class="brand" href="#top"><span class="brand-mark">AZ</span><span>Dr Ahmed Zayed</span></a>
+  <div class="navlinks">
+    <a href="#about">About</a><a href="#ai-fingerprint">AI Fingerprint</a><a href="#aquadyn">AquaDyn 3D</a><a href="#research">Research</a>
+    <a href="https://shams.academia.edu/DrAhmedZayed" target="_blank" rel="noopener">Academia</a>
+    <a class="nav-cta" href="https://wa.me/201100010381" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap hero-grid">
+  <div class="reveal">
+    <div class="eyebrow"><span class="dot"></span> Cyber Security · Forensic AI · Scientific Computing</div>
+    <h1>Research that turns<br><span class="grad">complex evidence</span><br>into usable systems.</h1>
+    <p class="lead">I am <strong>Dr Ahmed Zayed</strong>, a Cyber Security faculty member at Ain Shams University and developer of two research software platforms: <strong>AI Fingerprint V8.8.5</strong> for auditable AI-authorship and document-forensic evidence, and <strong>AquaDyn 3D Research Studio v12</strong> for computational hydraulics, scour, morphodynamics and advanced 3D flow research.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#ai-fingerprint">Explore AI Fingerprint →</a>
+      <a class="btn aqua" href="#aquadyn">Explore AquaDyn 3D →</a>
+      <a class="btn" href="https://shams.academia.edu/DrAhmedZayed" target="_blank" rel="noopener">Academic works ↗</a>
+    </div>
+    <div class="statrow">
+      <div class="stat"><b>V8.8.5</b><span>AI Fingerprint research release</span></div>
+      <div class="stat"><b>22/22</b><span>Controlled forensic assertions passed</span></div>
+      <div class="stat"><b>v12</b><span>AquaDyn 3D Research Studio</span></div>
+      <div class="stat"><b>Ain Shams</b><span>Cyber Security · Cairo, Egypt</span></div>
+    </div>
+  </div>
+  <div class="hero-visual reveal">
+    <div class="hero-orbit"></div>
+    <div class="visual-card"><svg class="scene-svg" viewBox="0 0 1000 720" role="img" aria-label="3D hydraulic pier scour visualization" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <linearGradient id="bg_1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04101e"/><stop offset=".58" stop-color="#081b2b"/><stop offset="1" stop-color="#02070d"/></linearGradient>
+      <linearGradient id="water_1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1cf0ff" stop-opacity=".86"/><stop offset=".5" stop-color="#168dff" stop-opacity=".66"/><stop offset="1" stop-color="#173a9f" stop-opacity=".62"/></linearGradient>
+      <linearGradient id="bed_1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a87842"/><stop offset=".5" stop-color="#4f3423"/><stop offset="1" stop-color="#251a16"/></linearGradient>
+      <linearGradient id="metal_1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8f6ff"/><stop offset=".35" stop-color="#718ba3"/><stop offset=".72" stop-color="#25384c"/><stop offset="1" stop-color="#9bb6cc"/></linearGradient>
+      <radialGradient id="scour_1"><stop offset="0" stop-color="#101824"/><stop offset=".45" stop-color="#59341e"/><stop offset="1" stop-color="#b47a42"/></radialGradient>
+      <filter id="glow_1" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      <filter id="soft_1" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+    </defs>
+    <rect width="1000" height="720" fill="url(#bg_1)"/>
+    <ellipse cx="790" cy="115" rx="180" ry="70" fill="#0acfff" opacity=".08" filter="url(#soft_1)"/>
+    <line class="gridline" x1="120.0" y1="650" x2="280.0" y2="210"/><line class="gridline" x1="182.4" y1="650" x2="318.4" y2="210"/><line class="gridline" x1="244.8" y1="650" x2="356.8" y2="210"/><line class="gridline" x1="307.2" y1="650" x2="395.2" y2="210"/><line class="gridline" x1="369.6" y1="650" x2="433.6" y2="210"/><line class="gridline" x1="432.0" y1="650" x2="472.0" y2="210"/><line class="gridline" x1="494.4" y1="650" x2="510.4" y2="210"/><line class="gridline" x1="556.8" y1="650" x2="548.8" y2="210"/><line class="gridline" x1="619.2" y1="650" x2="587.2" y2="210"/><line class="gridline" x1="681.6" y1="650" x2="625.6" y2="210"/><line class="gridline" x1="744.0" y1="650" x2="664.0" y2="210"/><line class="gridline" x1="265.5" y1="250" x2="770.9" y2="250"/><line class="gridline" x1="247.3" y1="300" x2="784.5" y2="300"/><line class="gridline" x1="229.1" y1="350" x2="798.2" y2="350"/><line class="gridline" x1="210.9" y1="400" x2="811.8" y2="400"/><line class="gridline" x1="192.7" y1="450" x2="825.5" y2="450"/><line class="gridline" x1="174.5" y1="500" x2="839.1" y2="500"/><line class="gridline" x1="156.4" y1="550" x2="852.7" y2="550"/><line class="gridline" x1="138.2" y1="600" x2="866.4" y2="600"/><line class="gridline" x1="120.0" y1="650" x2="880.0" y2="650"/>
+    <polygon points="120,650 880,650 760,210 280,210" fill="url(#bed_1)" opacity=".86"/>
+    <path d="M120 590 C280 555 345 576 485 548 C630 520 728 520 880 490 L760 265 C650 288 545 305 450 318 C365 330 315 328 280 320 Z" fill="url(#water_1)" opacity=".83"/>
+    <ellipse cx="525" cy="520" rx="145" ry="62" fill="url(#scour_1)" opacity=".95"/>
+    <ellipse cx="525" cy="518" rx="92" ry="38" fill="#071522" opacity=".72"/>
+    <ellipse cx="525" cy="364" rx="52" ry="20" fill="#c6deea" opacity=".9"/>
+    <path d="M473 365 L473 510 Q525 535 577 510 L577 365 Q525 390 473 365Z" fill="url(#metal_1)" stroke="#c7efff" stroke-opacity=".55" stroke-width="2"/>
+    <ellipse cx="525" cy="510" rx="52" ry="20" fill="#22374b" opacity=".95"/>
+    <ellipse cx="525" cy="365" rx="52" ry="20" fill="#cbe9f7"/>
+    <g filter="url(#glow_1)"><path class="flowline" d="M170 465 C290 430 365 425 445 432 C480 435 489 420 501 400"/><path class="flowline" d="M175 505 C300 470 380 480 444 493 C475 500 493 495 510 475"/><path class="flowline" d="M590 408 C660 404 733 400 820 370"/><path class="flowline2" d="M590 468 C680 458 745 445 845 420"/></g>
+    <path d="M455 445 C420 490 425 540 500 566 C575 590 650 555 650 505" fill="none" stroke="#ff8a50" stroke-width="8" stroke-opacity=".55"/>
+    <path d="M468 454 C445 492 460 525 515 541" fill="none" stroke="#ffcc69" stroke-width="4" stroke-opacity=".75"/>
+    <g fill="#a9f8ff" filter="url(#glow_1)"><circle class="pulse" cx="245" cy="448" r="5"/><circle class="pulse" cx="330" cy="444" r="4"/><circle class="pulse" cx="702" cy="415" r="5"/><circle class="pulse" cx="792" cy="389" r="4"/></g>
+    <text x="55" y="72" fill="#eafaff" font-family="Arial,sans-serif" font-size="30" font-weight="700">PIER SCOUR — 3D RESEARCH VIEW</text>
+    <text x="58" y="105" fill="#77ddff" font-family="Arial,sans-serif" font-size="16">free surface · local scour · velocity field · bed morphology</text>
+    <g transform="translate(60 610)"><rect width="230" height="56" rx="12" fill="#06121f" fill-opacity=".78" stroke="#36d8ff" stroke-opacity=".35"/><text x="18" y="25" fill="#aeeeff" font-size="14" font-family="Arial">SCALAR</text><text x="18" y="45" fill="#fff" font-size="17" font-family="Arial" font-weight="700">Scour depth + speed</text></g>
+    </svg><div class="visual-label"><b>AquaDyn 3D Research Studio v12</b><span>Scientific visualization · free-surface flow · scour · morphodynamics</span></div></div>
+    <div class="float-chip fc1">3D CFD / VOF-like Free Surface</div><div class="float-chip fc2">AI Forensics / Provenance</div><div class="float-chip fc3">Research-grade Evidence & Simulation</div>
+  </div>
+</div></header>
+
+<section class="section" id="about"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">About me</div><h2>Cybersecurity researcher,<br>software builder & investigator.</h2></div><p class="lead">My work connects cyber security, artificial intelligence, digital forensics and research software engineering — with a focus on systems whose outputs can be inspected, explained and defended.</p></div>
+  <div class="grid2">
+    <div class="card featured reveal"><h3>Dr Ahmed Zayed</h3><p class="about-copy">Cyber Security faculty member at <strong>Ain Shams University</strong>. My professional interests span digital infrastructure protection, information security and privacy, vulnerability assessment, penetration testing, threat modeling, incident response, cloud and endpoint security, AI-driven threat detection, document forensics and digital provenance. Alongside security research, I develop scientific research software for computational flow and hydraulic analysis.</p><p class="muted">A recurring theme across my projects is traceability: whether the problem is a forensic document or a hydraulic simulation, the result should expose the evidence, assumptions, numerical state and validation path rather than hide them behind a single opaque output.</p>
+      <div class="pills"><span class="pill">Cyber Security</span><span class="pill">Digital Forensics</span><span class="pill">Forensic AI</span><span class="pill">Document Provenance</span><span class="pill">Scientific Computing</span><span class="pill">Computational Hydraulics</span><span class="pill">Research Software</span><span class="pill">ISO/IEC 27001</span></div>
+    </div>
+    <div class="card reveal"><h3>Professional profile</h3><div class="info-table">
+      <div class="label">Academic role</div><div class="value">Cyber Security · Faculty Member · Ain Shams University</div>
+      <div class="label">Primary software</div><div class="value">AI Fingerprint V8.8.5</div>
+      <div class="label">Scientific software</div><div class="value">AquaDyn 3D Research Studio v12</div>
+      <div class="label">Research focus</div><div class="value">Cyber security, forensic AI, document evidence, computational hydraulics and research engineering</div>
+      <div class="label">Phone / WhatsApp</div><div class="value"><a href="tel:+201100010381">+2 011 000 10 381</a></div>
+      <div class="label">Academia</div><div class="value"><a href="https://shams.academia.edu/DrAhmedZayed" target="_blank" rel="noopener">shams.academia.edu/DrAhmedZayed ↗</a></div>
+      <div class="label">GitHub</div><div class="value"><a href="https://github.com/ahmedzayed12" target="_blank" rel="noopener">github.com/ahmedzayed12 ↗</a></div>
+    </div></div>
+  </div>
+</div></section>
+
+<section class="section" id="ai-fingerprint"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">Flagship forensic platform</div><h2>AI Fingerprint<br><span class="grad">V8.8.5</span></h2></div><p class="lead">Not a one-score AI detector. AI Fingerprint is an evidence architecture that combines textual inference with native DOCX/PDF forensics, cryptographic checks, provenance, reconstruction and auditable reporting.</p></div>
+
+  <div class="project-hero">
+    <div class="card featured project-intro reveal"><span class="version-badge">● V8.8.5 · CONSENSUS ARBITRATION</span><h3>From “AI score” to an <span class="grad">evidence case.</span></h3><p class="muted">The system deliberately separates calibrated model probabilities from uncalibrated forensic indices, limits the authority of any single detector, prevents correlated evidence from being counted twice, and records findings with their source, validation method, strength, manipulability, interpretation and alternative explanation.</p>
+      <div class="feature-list">
+        <div class="feature-item"><b>Multi-engine arbitration</b><span>Academic, general neural, mixed-aware and localized analysis</span></div>
+        <div class="feature-item"><b>Ten training-free families</b><span>Style, structure, evasion and authorship-shift evidence</span></div>
+        <div class="feature-item"><b>Native file forensics</b><span>DOCX / OOXML + PDF container-level inspection</span></div>
+        <div class="feature-item"><b>Cryptographic provenance</b><span>OOXML signatures, PDF CMS and C2PA-aware checks</span></div>
+      </div>
+    </div>
+    <div class="card reveal ai-matrix">
+      <div class="evidence-stack">
+        <div class="evidence-row"><div class="icon">AI</div><div><b>Textual inference layer</b><span>Learned + training-free + structural evidence</span></div><div class="badge">MULTI-ENGINE</div></div>
+        <div class="evidence-row"><div class="icon">OX</div><div><b>DOCX / OOXML reconstruction</b><span>Revisions, comments, RSIDs, hidden content, relations</span></div><div class="badge">NATIVE</div></div>
+        <div class="evidence-row"><div class="icon">PDF</div><div><b>PDF forensic timeline</b><span>Info/XMP, incremental revisions, embedded objects</span></div><div class="badge">TIMELINE</div></div>
+        <div class="evidence-row"><div class="icon">SIG</div><div><b>Tamper & signature testing</b><span>Signed-part digests, ByteRange, CMS/RSA validation</span></div><div class="badge">CRYPTO</div></div>
+        <div class="evidence-row"><div class="icon">OCR</div><div><b>OCR acquisition</b><span>Scanned and mixed native/image documents</span></div><div class="badge">ENG + ARA</div></div>
+        <div class="evidence-row"><div class="icon">LOG</div><div><b>Evidence ledger</b><span>Unified traceable record for review and reporting</span></div><div class="badge">AUDITABLE</div></div>
+      </div>
+      <div>
+        <div class="highlight-box"><div class="big">22/22</div><p>Controlled positive, negative and tamper assertions passed in the independent functional rerun after the declared PDF-CMS parsing dependency was installed.</p></div>
+        <div class="notice">Important interpretation: the system outputs a <strong>Multi-Engine AI Evidence Index</strong>. It is not presented as “the percentage of words written by AI” and it does not claim to prove a named author from one score.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid4">
+    <div class="card reveal"><div class="icon">01</div><h3>Consensus, not veto</h3><p class="muted">Dependency-aware arbitration keeps one detector from dominating the case and discounts correlated evidence rather than double-counting it.</p></div>
+    <div class="card reveal"><div class="icon">02</div><h3>DOCX history</h3><p class="muted">Inventories package parts, revision marks, comments, RSIDs, paragraph/text identifiers, hidden content, external relationships and signatures.</p></div>
+    <div class="card reveal"><div class="icon">03</div><h3>PDF lineage</h3><p class="muted">Examines native/OCR text, metadata, XMP lineage, incremental revisions, embedded objects, CMS signatures and temporal inconsistencies.</p></div>
+    <div class="card reveal"><div class="icon">04</div><h3>Provenance ladder</h3><p class="muted">Separates editable metadata and weak indicators from structurally parsed, cryptographically validated and trust-evaluated provenance evidence.</p></div>
+  </div>
+</div></section>
+
+<section class="section" id="aquadyn"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">Scientific research software</div><h2>AquaDyn 3D<br><span class="grad">Research Studio v12</span></h2></div><p class="lead">An independent computational hydraulics and morphodynamics research environment combining the established 2D shallow-water workflow with an advanced volumetric 3D CFD workspace and research-grade visualization.</p></div>
+
+  <div class="project-hero">
+    <div class="card featured project-intro reveal"><span class="version-badge">● v12 · ADVANCED 3D RESEARCH STUDIO</span><h3>Hydraulics, scour and free-surface flow in one <span class="grad">research workspace.</span></h3><p class="muted">AquaDyn is designed for experimental and academic workflows: define geometry and boundary conditions, run hydraulic and morphodynamic models, examine bed evolution and local scour, inspect velocity and free-surface fields in 3D, compare engineering formulas with numerical results, validate configurations, and export data for independent post-processing.</p>
+      <div class="scenario-strip">
+        <div class="scenario"><b>Pier Scour</b><span>local scour + sediment</span></div><div class="scenario"><b>Open Channel</b><span>hydraulics + resistance</span></div><div class="scenario"><b>Dam-Break</b><span>rapid wave propagation</span></div><div class="scenario"><b>Urban Flooding</b><span>obstacles + inundation</span></div><div class="scenario"><b>Labyrinth Weir</b><span>spillway + discharge</span></div>
+      </div>
+    </div>
+    <div class="big-visual reveal"><svg class="scene-svg" viewBox="0 0 1000 720" role="img" aria-label="3D dam break and urban flooding visualization" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <linearGradient id="bg_2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04101e"/><stop offset=".58" stop-color="#081b2b"/><stop offset="1" stop-color="#02070d"/></linearGradient>
+      <linearGradient id="water_2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1cf0ff" stop-opacity=".86"/><stop offset=".5" stop-color="#168dff" stop-opacity=".66"/><stop offset="1" stop-color="#173a9f" stop-opacity=".62"/></linearGradient>
+      <linearGradient id="bed_2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a87842"/><stop offset=".5" stop-color="#4f3423"/><stop offset="1" stop-color="#251a16"/></linearGradient>
+      <linearGradient id="metal_2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8f6ff"/><stop offset=".35" stop-color="#718ba3"/><stop offset=".72" stop-color="#25384c"/><stop offset="1" stop-color="#9bb6cc"/></linearGradient>
+      <radialGradient id="scour_2"><stop offset="0" stop-color="#101824"/><stop offset=".45" stop-color="#59341e"/><stop offset="1" stop-color="#b47a42"/></radialGradient>
+      <filter id="glow_2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      <filter id="soft_2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+    </defs><rect width="1000" height="720" fill="url(#bg_2)"/><line class="gridline" x1="120.0" y1="650" x2="280.0" y2="210"/><line class="gridline" x1="182.4" y1="650" x2="318.4" y2="210"/><line class="gridline" x1="244.8" y1="650" x2="356.8" y2="210"/><line class="gridline" x1="307.2" y1="650" x2="395.2" y2="210"/><line class="gridline" x1="369.6" y1="650" x2="433.6" y2="210"/><line class="gridline" x1="432.0" y1="650" x2="472.0" y2="210"/><line class="gridline" x1="494.4" y1="650" x2="510.4" y2="210"/><line class="gridline" x1="556.8" y1="650" x2="548.8" y2="210"/><line class="gridline" x1="619.2" y1="650" x2="587.2" y2="210"/><line class="gridline" x1="681.6" y1="650" x2="625.6" y2="210"/><line class="gridline" x1="744.0" y1="650" x2="664.0" y2="210"/><line class="gridline" x1="265.5" y1="250" x2="770.9" y2="250"/><line class="gridline" x1="247.3" y1="300" x2="784.5" y2="300"/><line class="gridline" x1="229.1" y1="350" x2="798.2" y2="350"/><line class="gridline" x1="210.9" y1="400" x2="811.8" y2="400"/><line class="gridline" x1="192.7" y1="450" x2="825.5" y2="450"/><line class="gridline" x1="174.5" y1="500" x2="839.1" y2="500"/><line class="gridline" x1="156.4" y1="550" x2="852.7" y2="550"/><line class="gridline" x1="138.2" y1="600" x2="866.4" y2="600"/><line class="gridline" x1="120.0" y1="650" x2="880.0" y2="650"/>
+    <polygon points="120,650 880,650 760,210 280,210" fill="#17232c"/>
+    <polygon points="140,580 500,495 455,295 255,320" fill="url(#water_2)" opacity=".92"/>
+    <path d="M455 295 C520 320 520 410 575 430 C635 452 695 436 760 470 L865 620 L510 565 C500 505 495 450 455 410Z" fill="url(#water_2)" opacity=".76"/>
+    <path d="M435 270 L475 260 L520 488 L480 500Z" fill="#8399aa"/><path d="M468 330 L500 325 L515 405 L485 412Z" fill="#051019"/>
+    <g transform="translate(590 350)"><polygon points="0,35 42,10 94,33 51,61" fill="#4e6174"/><polygon points="0,35 0,88 51,115 51,61" fill="#263747"/><polygon points="51,61 94,33 94,82 51,115" fill="#182532"/></g><g transform="translate(705 395)"><polygon points="0,35 42,10 94,33 51,61" fill="#4e6174"/><polygon points="0,35 0,88 51,115 51,61" fill="#263747"/><polygon points="51,61 94,33 94,82 51,115" fill="#182532"/></g><g transform="translate(620 480)"><polygon points="0,35 42,10 94,33 51,61" fill="#4e6174"/><polygon points="0,35 0,88 51,115 51,61" fill="#263747"/><polygon points="51,61 94,33 94,82 51,115" fill="#182532"/></g><g transform="translate(760 505)"><polygon points="0,35 42,10 94,33 51,61" fill="#4e6174"/><polygon points="0,35 0,88 51,115 51,61" fill="#263747"/><polygon points="51,61 94,33 94,82 51,115" fill="#182532"/></g><g transform="translate(520 445)"><polygon points="0,35 42,10 94,33 51,61" fill="#4e6174"/><polygon points="0,35 0,88 51,115 51,61" fill="#263747"/><polygon points="51,61 94,33 94,82 51,115" fill="#182532"/></g>
+    <g filter="url(#glow_2)"><path class="flowline" d="M260 410 C390 395 500 390 592 430 C685 470 746 525 828 572"/><path class="flowline" d="M255 455 C385 438 500 442 580 477 C670 516 726 552 816 606"/><path class="flowline2" d="M320 355 C430 352 500 360 570 405 C635 445 690 500 750 545"/></g>
+    <g fill="#91f7ff" filter="url(#glow_2)"><circle class="pulse" cx="520" cy="420" r="5"/><circle class="pulse" cx="603" cy="458" r="5"/><circle class="pulse" cx="690" cy="507" r="4"/><circle class="pulse" cx="785" cy="563" r="5"/></g>
+    <text x="55" y="72" fill="#eafaff" font-family="Arial,sans-serif" font-size="30" font-weight="700">DAM-BREAK / URBAN FLOODING — 3D</text><text x="58" y="105" fill="#77ddff" font-family="Arial,sans-serif" font-size="16">wave propagation · obstacle interaction · velocity transport · wet/dry front</text>
+    </svg><div class="overlay">Volumetric 3D research scene with free-surface wave propagation, velocity field and obstacle interaction.</div></div>
+  </div>
+
+  <div class="grid3">
+    <div class="card reveal"><div class="icon">3D</div><h3>Volumetric CFD workspace</h3><p class="muted">MAC projection solver, bounded VOF-like free-surface transport, fractional embedded geometry and a native volumetric research workflow.</p></div>
+    <div class="card reveal"><div class="icon">STL</div><h3>Geometry & solid interaction</h3><p class="muted">STL voxel import, embedded obstacles, multiple pier geometries, channel walls and solid 3D scene reconstruction.</p></div>
+    <div class="card reveal"><div class="icon">SED</div><h3>Sediment & Exner bed evolution</h3><p class="muted">Suspended sediment, bed-load budgeting, erosion/deposition tracking, morphological acceleration and evolving-bed research.</p></div>
+    <div class="card reveal"><div class="icon">CFD</div><h3>Advanced numerics</h3><p class="muted">HLLC Riemann flux, MUSCL-Hancock second-order reconstruction, CFL-controlled stepping and research-oriented numerical diagnostics.</p></div>
+    <div class="card reveal"><div class="icon">TUR</div><h3>Turbulence & boundaries</h3><p class="muted">Turbulence closures including Spalart–Allmaras, sponge-layer boundaries, rating-curve outlets and near-wall quality indicators.</p></div>
+    <div class="card reveal"><div class="icon">VTK</div><h3>Research post-processing</h3><p class="muted">3D water/bed surfaces, velocity cones and streamlines, probes, restart/checkpoints, VTK export and volumetric post-processing.</p></div>
+  </div>
+
+  <div style="height:16px"></div>
+  <div class="tech-table reveal">
+    <div class="tech-col"><h4>Hydraulics & scour intelligence</h4><ul><li>HEC-18 pier-scour formulation with live correction factors.</li><li>CSU / comparison methods plus Melville–Coleman and Breusers-style analysis.</li><li>Abutment and contraction scour support, bed shear and sediment mobility fields.</li><li>Horseshoe-vortex proxy analytics, stagnation pressure and downflow indicators.</li><li>Froude zoning, energy-grade-line output and hydraulic performance diagnostics.</li></ul></div>
+    <div class="tech-col"><h4>Research workflow & quality control</h4><ul><li>Safe / Enhanced / Pro simulation presets.</li><li>Dedicated Setup, Physics, Numerics, Run, Results, Report, Validation, Experiments, Mesh and 3D CFD workspaces where applicable.</li><li>Mesh-quality reporting, sensitivity / UQ panel and numerical verification smoke tests.</li><li>Probe-based measurement, checkpoint/restart, CSV/structured data and VTK-oriented export paths.</li><li>Interactive camera, water opacity, bed/scour overlays, obstacles, streamlines and velocity cones.</li></ul></div>
+  </div>
+
+  <div class="notice reveal">AquaDyn 3D Research Studio is presented as an <strong>independent research implementation</strong>. It is not the proprietary FLOW-3D solver and does not claim to reproduce proprietary TruVOF/FAVOR algorithms.</div>
+</div></section>
+
+<section class="section" id="gallery"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">3D research gallery</div><h2>Visualize the physics,<br>not only the numbers.</h2></div><p class="lead">Three embedded 3D technical renders illustrate the type of scene composition used to communicate free-surface behavior, hydraulic structures and morphodynamic change.</p></div>
+  <div class="gallery">
+    <div class="shot reveal"><svg class="scene-svg" viewBox="0 0 1000 720" role="img" aria-label="3D hydraulic pier scour visualization" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <linearGradient id="bg_3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04101e"/><stop offset=".58" stop-color="#081b2b"/><stop offset="1" stop-color="#02070d"/></linearGradient>
+      <linearGradient id="water_3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1cf0ff" stop-opacity=".86"/><stop offset=".5" stop-color="#168dff" stop-opacity=".66"/><stop offset="1" stop-color="#173a9f" stop-opacity=".62"/></linearGradient>
+      <linearGradient id="bed_3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a87842"/><stop offset=".5" stop-color="#4f3423"/><stop offset="1" stop-color="#251a16"/></linearGradient>
+      <linearGradient id="metal_3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8f6ff"/><stop offset=".35" stop-color="#718ba3"/><stop offset=".72" stop-color="#25384c"/><stop offset="1" stop-color="#9bb6cc"/></linearGradient>
+      <radialGradient id="scour_3"><stop offset="0" stop-color="#101824"/><stop offset=".45" stop-color="#59341e"/><stop offset="1" stop-color="#b47a42"/></radialGradient>
+      <filter id="glow_3" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      <filter id="soft_3" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+    </defs>
+    <rect width="1000" height="720" fill="url(#bg_3)"/>
+    <ellipse cx="790" cy="115" rx="180" ry="70" fill="#0acfff" opacity=".08" filter="url(#soft_3)"/>
+    <line class="gridline" x1="120.0" y1="650" x2="280.0" y2="210"/><line class="gridline" x1="182.4" y1="650" x2="318.4" y2="210"/><line class="gridline" x1="244.8" y1="650" x2="356.8" y2="210"/><line class="gridline" x1="307.2" y1="650" x2="395.2" y2="210"/><line class="gridline" x1="369.6" y1="650" x2="433.6" y2="210"/><line class="gridline" x1="432.0" y1="650" x2="472.0" y2="210"/><line class="gridline" x1="494.4" y1="650" x2="510.4" y2="210"/><line class="gridline" x1="556.8" y1="650" x2="548.8" y2="210"/><line class="gridline" x1="619.2" y1="650" x2="587.2" y2="210"/><line class="gridline" x1="681.6" y1="650" x2="625.6" y2="210"/><line class="gridline" x1="744.0" y1="650" x2="664.0" y2="210"/><line class="gridline" x1="265.5" y1="250" x2="770.9" y2="250"/><line class="gridline" x1="247.3" y1="300" x2="784.5" y2="300"/><line class="gridline" x1="229.1" y1="350" x2="798.2" y2="350"/><line class="gridline" x1="210.9" y1="400" x2="811.8" y2="400"/><line class="gridline" x1="192.7" y1="450" x2="825.5" y2="450"/><line class="gridline" x1="174.5" y1="500" x2="839.1" y2="500"/><line class="gridline" x1="156.4" y1="550" x2="852.7" y2="550"/><line class="gridline" x1="138.2" y1="600" x2="866.4" y2="600"/><line class="gridline" x1="120.0" y1="650" x2="880.0" y2="650"/>
+    <polygon points="120,650 880,650 760,210 280,210" fill="url(#bed_3)" opacity=".86"/>
+    <path d="M120 590 C280 555 345 576 485 548 C630 520 728 520 880 490 L760 265 C650 288 545 305 450 318 C365 330 315 328 280 320 Z" fill="url(#water_3)" opacity=".83"/>
+    <ellipse cx="525" cy="520" rx="145" ry="62" fill="url(#scour_3)" opacity=".95"/>
+    <ellipse cx="525" cy="518" rx="92" ry="38" fill="#071522" opacity=".72"/>
+    <ellipse cx="525" cy="364" rx="52" ry="20" fill="#c6deea" opacity=".9"/>
+    <path d="M473 365 L473 510 Q525 535 577 510 L577 365 Q525 390 473 365Z" fill="url(#metal_3)" stroke="#c7efff" stroke-opacity=".55" stroke-width="2"/>
+    <ellipse cx="525" cy="510" rx="52" ry="20" fill="#22374b" opacity=".95"/>
+    <ellipse cx="525" cy="365" rx="52" ry="20" fill="#cbe9f7"/>
+    <g filter="url(#glow_3)"><path class="flowline" d="M170 465 C290 430 365 425 445 432 C480 435 489 420 501 400"/><path class="flowline" d="M175 505 C300 470 380 480 444 493 C475 500 493 495 510 475"/><path class="flowline" d="M590 408 C660 404 733 400 820 370"/><path class="flowline2" d="M590 468 C680 458 745 445 845 420"/></g>
+    <path d="M455 445 C420 490 425 540 500 566 C575 590 650 555 650 505" fill="none" stroke="#ff8a50" stroke-width="8" stroke-opacity=".55"/>
+    <path d="M468 454 C445 492 460 525 515 541" fill="none" stroke="#ffcc69" stroke-width="4" stroke-opacity=".75"/>
+    <g fill="#a9f8ff" filter="url(#glow_3)"><circle class="pulse" cx="245" cy="448" r="5"/><circle class="pulse" cx="330" cy="444" r="4"/><circle class="pulse" cx="702" cy="415" r="5"/><circle class="pulse" cx="792" cy="389" r="4"/></g>
+    <text x="55" y="72" fill="#eafaff" font-family="Arial,sans-serif" font-size="30" font-weight="700">PIER SCOUR — 3D RESEARCH VIEW</text>
+    <text x="58" y="105" fill="#77ddff" font-family="Arial,sans-serif" font-size="16">free surface · local scour · velocity field · bed morphology</text>
+    <g transform="translate(60 610)"><rect width="230" height="56" rx="12" fill="#06121f" fill-opacity=".78" stroke="#36d8ff" stroke-opacity=".35"/><text x="18" y="25" fill="#aeeeff" font-size="14" font-family="Arial">SCALAR</text><text x="18" y="45" fill="#fff" font-size="17" font-family="Arial" font-weight="700">Scour depth + speed</text></g>
+    </svg><div class="shot-caption"><b>Pier Scour & Bed Morphodynamics</b><span>free surface · local scour · velocity field · pier geometry</span></div></div>
+    <div class="shot reveal"><svg class="scene-svg" viewBox="0 0 1000 720" role="img" aria-label="3D dam break and urban flooding visualization" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <linearGradient id="bg_4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04101e"/><stop offset=".58" stop-color="#081b2b"/><stop offset="1" stop-color="#02070d"/></linearGradient>
+      <linearGradient id="water_4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1cf0ff" stop-opacity=".86"/><stop offset=".5" stop-color="#168dff" stop-opacity=".66"/><stop offset="1" stop-color="#173a9f" stop-opacity=".62"/></linearGradient>
+      <linearGradient id="bed_4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a87842"/><stop offset=".5" stop-color="#4f3423"/><stop offset="1" stop-color="#251a16"/></linearGradient>
+      <linearGradient id="metal_4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8f6ff"/><stop offset=".35" stop-color="#718ba3"/><stop offset=".72" stop-color="#25384c"/><stop offset="1" stop-color="#9bb6cc"/></linearGradient>
+      <radialGradient id="scour_4"><stop offset="0" stop-color="#101824"/><stop offset=".45" stop-color="#59341e"/><stop offset="1" stop-color="#b47a42"/></radialGradient>
+      <filter id="glow_4" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      <filter id="soft_4" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+    </defs><rect width="1000" height="720" fill="url(#bg_4)"/><line class="gridline" x1="120.0" y1="650" x2="280.0" y2="210"/><line class="gridline" x1="182.4" y1="650" x2="318.4" y2="210"/><line class="gridline" x1="244.8" y1="650" x2="356.8" y2="210"/><line class="gridline" x1="307.2" y1="650" x2="395.2" y2="210"/><line class="gridline" x1="369.6" y1="650" x2="433.6" y2="210"/><line class="gridline" x1="432.0" y1="650" x2="472.0" y2="210"/><line class="gridline" x1="494.4" y1="650" x2="510.4" y2="210"/><line class="gridline" x1="556.8" y1="650" x2="548.8" y2="210"/><line class="gridline" x1="619.2" y1="650" x2="587.2" y2="210"/><line class="gridline" x1="681.6" y1="650" x2="625.6" y2="210"/><line class="gridline" x1="744.0" y1="650" x2="664.0" y2="210"/><line class="gridline" x1="265.5" y1="250" x2="770.9" y2="250"/><line class="gridline" x1="247.3" y1="300" x2="784.5" y2="300"/><line class="gridline" x1="229.1" y1="350" x2="798.2" y2="350"/><line class="gridline" x1="210.9" y1="400" x2="811.8" y2="400"/><line class="gridline" x1="192.7" y1="450" x2="825.5" y2="450"/><line class="gridline" x1="174.5" y1="500" x2="839.1" y2="500"/><line class="gridline" x1="156.4" y1="550" x2="852.7" y2="550"/><line class="gridline" x1="138.2" y1="600" x2="866.4" y2="600"/><line class="gridline" x1="120.0" y1="650" x2="880.0" y2="650"/>
+    <polygon points="120,650 880,650 760,210 280,210" fill="#17232c"/>
+    <polygon points="140,580 500,495 455,295 255,320" fill="url(#water_4)" opacity=".92"/>
+    <path d="M455 295 C520 320 520 410 575 430 C635 452 695 436 760 470 L865 620 L510 565 C500 505 495 450 455 410Z" fill="url(#water_4)" opacity=".76"/>
+    <path d="M435 270 L475 260 L520 488 L480 500Z" fill="#8399aa"/><path d="M468 330 L500 325 L515 405 L485 412Z" fill="#051019"/>
+    <g transform="translate(590 350)"><polygon points="0,35 42,10 94,33 51,61" fill="#4e6174"/><polygon points="0,35 0,88 51,115 51,61" fill="#263747"/><polygon points="51,61 94,33 94,82 51,115" fill="#182532"/></g><g transform="translate(705 395)"><polygon points="0,35 42,10 94,33 51,61" fill="#4e6174"/><polygon points="0,35 0,88 51,115 51,61" fill="#263747"/><polygon points="51,61 94,33 94,82 51,115" fill="#182532"/></g><g transform="translate(620 480)"><polygon points="0,35 42,10 94,33 51,61" fill="#4e6174"/><polygon points="0,35 0,88 51,115 51,61" fill="#263747"/><polygon points="51,61 94,33 94,82 51,115" fill="#182532"/></g><g transform="translate(760 505)"><polygon points="0,35 42,10 94,33 51,61" fill="#4e6174"/><polygon points="0,35 0,88 51,115 51,61" fill="#263747"/><polygon points="51,61 94,33 94,82 51,115" fill="#182532"/></g><g transform="translate(520 445)"><polygon points="0,35 42,10 94,33 51,61" fill="#4e6174"/><polygon points="0,35 0,88 51,115 51,61" fill="#263747"/><polygon points="51,61 94,33 94,82 51,115" fill="#182532"/></g>
+    <g filter="url(#glow_4)"><path class="flowline" d="M260 410 C390 395 500 390 592 430 C685 470 746 525 828 572"/><path class="flowline" d="M255 455 C385 438 500 442 580 477 C670 516 726 552 816 606"/><path class="flowline2" d="M320 355 C430 352 500 360 570 405 C635 445 690 500 750 545"/></g>
+    <g fill="#91f7ff" filter="url(#glow_4)"><circle class="pulse" cx="520" cy="420" r="5"/><circle class="pulse" cx="603" cy="458" r="5"/><circle class="pulse" cx="690" cy="507" r="4"/><circle class="pulse" cx="785" cy="563" r="5"/></g>
+    <text x="55" y="72" fill="#eafaff" font-family="Arial,sans-serif" font-size="30" font-weight="700">DAM-BREAK / URBAN FLOODING — 3D</text><text x="58" y="105" fill="#77ddff" font-family="Arial,sans-serif" font-size="16">wave propagation · obstacle interaction · velocity transport · wet/dry front</text>
+    </svg><div class="shot-caption"><b>Dam-Break / Urban Flooding</b><span>wavefront · obstacles · propagation · flow vectors</span></div></div>
+    <div class="shot reveal"><svg class="scene-svg" viewBox="0 0 1000 720" role="img" aria-label="3D labyrinth weir spillway visualization" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <linearGradient id="bg_5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04101e"/><stop offset=".58" stop-color="#081b2b"/><stop offset="1" stop-color="#02070d"/></linearGradient>
+      <linearGradient id="water_5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1cf0ff" stop-opacity=".86"/><stop offset=".5" stop-color="#168dff" stop-opacity=".66"/><stop offset="1" stop-color="#173a9f" stop-opacity=".62"/></linearGradient>
+      <linearGradient id="bed_5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a87842"/><stop offset=".5" stop-color="#4f3423"/><stop offset="1" stop-color="#251a16"/></linearGradient>
+      <linearGradient id="metal_5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8f6ff"/><stop offset=".35" stop-color="#718ba3"/><stop offset=".72" stop-color="#25384c"/><stop offset="1" stop-color="#9bb6cc"/></linearGradient>
+      <radialGradient id="scour_5"><stop offset="0" stop-color="#101824"/><stop offset=".45" stop-color="#59341e"/><stop offset="1" stop-color="#b47a42"/></radialGradient>
+      <filter id="glow_5" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      <filter id="soft_5" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+    </defs><rect width="1000" height="720" fill="url(#bg_5)"/><line class="gridline" x1="120.0" y1="650" x2="280.0" y2="210"/><line class="gridline" x1="182.4" y1="650" x2="318.4" y2="210"/><line class="gridline" x1="244.8" y1="650" x2="356.8" y2="210"/><line class="gridline" x1="307.2" y1="650" x2="395.2" y2="210"/><line class="gridline" x1="369.6" y1="650" x2="433.6" y2="210"/><line class="gridline" x1="432.0" y1="650" x2="472.0" y2="210"/><line class="gridline" x1="494.4" y1="650" x2="510.4" y2="210"/><line class="gridline" x1="556.8" y1="650" x2="548.8" y2="210"/><line class="gridline" x1="619.2" y1="650" x2="587.2" y2="210"/><line class="gridline" x1="681.6" y1="650" x2="625.6" y2="210"/><line class="gridline" x1="744.0" y1="650" x2="664.0" y2="210"/><line class="gridline" x1="265.5" y1="250" x2="770.9" y2="250"/><line class="gridline" x1="247.3" y1="300" x2="784.5" y2="300"/><line class="gridline" x1="229.1" y1="350" x2="798.2" y2="350"/><line class="gridline" x1="210.9" y1="400" x2="811.8" y2="400"/><line class="gridline" x1="192.7" y1="450" x2="825.5" y2="450"/><line class="gridline" x1="174.5" y1="500" x2="839.1" y2="500"/><line class="gridline" x1="156.4" y1="550" x2="852.7" y2="550"/><line class="gridline" x1="138.2" y1="600" x2="866.4" y2="600"/><line class="gridline" x1="120.0" y1="650" x2="880.0" y2="650"/>
+    <polygon points="120,650 880,650 760,210 280,210" fill="#332a24"/>
+    <polygon points="140,575 835,575 735,240 292,240" fill="url(#water_5)" opacity=".72"/>
+    <polygon points="310,565 740,565 675,350 350,350" fill="#06131f" opacity=".52"/>
+    <polygon points="360,350 405,320 409,470 364,500" fill="url(#metal_5)" stroke="#c8efff" stroke-opacity=".4"/><polygon points="405,320 450,350 454,500 409,470" fill="url(#metal_5)" stroke="#c8efff" stroke-opacity=".4"/><polygon points="450,350 495,320 499,470 454,500" fill="url(#metal_5)" stroke="#c8efff" stroke-opacity=".4"/><polygon points="495,320 540,350 544,500 499,470" fill="url(#metal_5)" stroke="#c8efff" stroke-opacity=".4"/><polygon points="540,350 585,320 589,470 544,500" fill="url(#metal_5)" stroke="#c8efff" stroke-opacity=".4"/><polygon points="585,320 630,350 634,500 589,470" fill="url(#metal_5)" stroke="#c8efff" stroke-opacity=".4"/>
+    <path d="M350 350 L405 320 L450 350 L495 320 L540 350 L585 320 L630 350" fill="none" stroke="#e7f6ff" stroke-width="5"/>
+    <g opacity=".78" filter="url(#glow_5)"><path d="M375 365 C388 410 390 455 400 515" stroke="#74eeff" stroke-width="10"/><path d="M455 365 C470 415 475 465 480 525" stroke="#74eeff" stroke-width="10"/><path d="M540 365 C553 420 560 468 565 525" stroke="#74eeff" stroke-width="10"/><path d="M615 365 C630 418 635 468 640 520" stroke="#74eeff" stroke-width="10"/></g>
+    <g filter="url(#glow_5)"><path class="flowline" d="M195 420 C280 395 335 390 355 360"/><path class="flowline" d="M205 470 C285 455 330 445 375 415"/><path class="flowline2" d="M650 415 C715 430 760 470 815 525"/></g>
+    <text x="55" y="72" fill="#eafaff" font-family="Arial,sans-serif" font-size="30" font-weight="700">LABYRINTH WEIR / SPILLWAY — 3D</text><text x="58" y="105" fill="#77ddff" font-family="Arial,sans-serif" font-size="16">effective crest · overflow sheets · discharge-oriented hydraulic scene</text>
+    </svg><div class="shot-caption"><b>Labyrinth Weir & Spillway</b><span>effective crest · water drop · discharge-oriented research scene</span></div></div>
+  </div>
+</div></section>
+
+<section class="section" id="research"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">Selected research</div><h2>Across AI, security<br>& applied research.</h2></div><a class="btn" href="https://shams.academia.edu/DrAhmedZayed" target="_blank" rel="noopener">View full Academia profile ↗</a></div>
+  <div class="grid2">
+    <div class="card featured reveal"><div class="pub"><div class="pub-year">2026</div><div><div class="pub-title">Beyond AI Text Detection: Dr Ahmed Zayed's AI Fingerprint as an Integrated Multi-Engine and File-Forensic Framework for Auditable Authorship Evidence</div><small>System architecture, prior-art analysis and cryptographic/forensic validation.</small></div></div></div>
+    <div class="card reveal"><div class="pub"><div class="pub-year">2025</div><div><div class="pub-title">Introduction to FLUXION</div><small>Wireless security testing and social-engineering-focused security analysis.</small></div></div></div>
+    <div class="card reveal"><div class="pub"><div class="pub-year">2024</div><div><div class="pub-title">Applying Big Data in Behavioral Biometrics for Fraud Detection</div><small>Behavioral biometrics, machine learning and fraud-detection applications.</small></div></div></div>
+    <div class="card reveal"><div class="pub"><div class="pub-year">R&D</div><div><div class="pub-title">AquaDyn 3D Research Studio v12</div><small>Independent computational hydraulics, scour, morphodynamics and 3D scientific visualization research software.</small></div></div></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap"><div class="contact-panel reveal"><div><div class="kicker">Direct contact</div><h2 style="margin:.15em 0 .18em;font-size:clamp(30px,4vw,48px);letter-spacing:-.04em">Research & professional contact</h2><p class="muted" style="margin:0">Cyber Security · Forensic AI · Scientific research software</p></div><div class="contact-actions"><a class="btn primary" href="https://wa.me/201100010381" target="_blank" rel="noopener">Message on WhatsApp</a><a class="btn" href="tel:+201100010381">Call +2 011 000 10 381</a></div></div></div></section>
+
+<footer><div class="wrap footer-grid"><div><strong>Dr Ahmed Zayed</strong><br>Cyber Security · Forensic AI · Scientific Computing</div><div>AI Fingerprint V8.8.5 · AquaDyn 3D Research Studio v12<br>Copyright © 2026 Ahmed Zayed. Confidential source code is not published on this website.</div></div></footer>
+<script>
+const io=new IntersectionObserver((entries)=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body></html>
