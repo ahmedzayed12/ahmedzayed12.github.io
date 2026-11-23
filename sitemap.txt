@@ -3,3 +3,5 @@ https://ahmedzayed12.github.io/about.html
 https://ahmedzayed12.github.io/ai-fingerprint.html
 https://ahmedzayed12.github.io/research.html
 https://ahmedzayed12.github.io/hashes.html
+https://ahmedzayed12.github.io/hueasy-guide/
+https://ahmedzayed12.github.io/hueasy-guide/en.html
