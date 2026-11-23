@@ -65,3 +65,9 @@ h1, h2 { letter-spacing: normal; }
 .turnitin-notice strong { display: inline-block; }
 .turnitin-notice p { max-inline-size: 72ch; margin-block-start: .25rem; }
 #turnitin + .faq { padding-block-start: 0; }
+
+.hero-actions { display: flex; flex-wrap: wrap; gap: .7rem; }
+.hero-actions .outline { border-color: #a78970; color: var(--off); }
+.app-link { text-decoration: underline; text-underline-offset: .23em; }
+.footer-app { display: flex; flex-wrap: wrap; gap: .3rem .6rem; min-width: 0; }
+.footer-app a { overflow-wrap: anywhere; }
