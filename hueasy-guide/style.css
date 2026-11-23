@@ -94,3 +94,10 @@ h1, h2 { letter-spacing: normal; }
   block-size: auto;
   margin-block-end: .65rem;
 }
+
+.feature-turnitin {
+  margin-block-start: clamp(2rem, 5vw, 3.5rem);
+  padding-block-start: clamp(1.5rem, 3vw, 2.25rem);
+  border-block-start: 1px solid var(--line);
+  scroll-margin-block-start: 1rem;
+}
