@@ -101,3 +101,8 @@ h1, h2 { letter-spacing: normal; }
   border-block-start: 1px solid var(--line);
   scroll-margin-block-start: 1rem;
 }
+
+.header-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+@media (max-width: 440px) {
+  .header-actions .button { padding-inline: .65rem; font-size: .9rem; }
+}
