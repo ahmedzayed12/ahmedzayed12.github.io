@@ -71,3 +71,20 @@ h1, h2 { letter-spacing: normal; }
 .app-link { text-decoration: underline; text-underline-offset: .23em; }
 .footer-app { display: flex; flex-wrap: wrap; gap: .3rem .6rem; min-width: 0; }
 .footer-app a { overflow-wrap: anywhere; }
+
+.feature-workflow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.15rem 2rem;
+  margin-block-end: 1.2rem;
+  padding: clamp(1.25rem, 3vw, 2.2rem);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-inline-start: .3rem solid var(--accent);
+  border-radius: 1rem;
+}
+.feature-workflow h3 { font-size: clamp(1.45rem, 3vw, 2rem); }
+.feature-workflow p { max-inline-size: 65ch; }
+.feature-workflow .workflow-format { font-size: .93rem; }
