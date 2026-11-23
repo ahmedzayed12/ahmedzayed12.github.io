@@ -88,3 +88,9 @@ h1, h2 { letter-spacing: normal; }
 .feature-workflow h3 { font-size: clamp(1.45rem, 3vw, 2rem); }
 .feature-workflow p { max-inline-size: 65ch; }
 .feature-workflow .workflow-format { font-size: .93rem; }
+
+.turnitin-notice img {
+  inline-size: min(100%, 11rem);
+  block-size: auto;
+  margin-block-end: .65rem;
+}
